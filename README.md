@@ -3,7 +3,7 @@
 ## Compilation
 
 To build a binary from the source code, just run the `make` command.
-This will, by default, create binaries for multiple Operating Systems and architectures.
+This will, by default, create binaries for multiple operating systems and architectures.
 
 If you need binaries for more/other OS/archs, use the environment variables `GOOS` and `GOARCH` as describe in
 https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63
@@ -25,9 +25,9 @@ The default mode is on-prem, use the paramter `--cloud` to query scanners connec
 
 `--insecure` -> Use this if your Security Center certificate is untrusted. Does not apply to VM.
 
-`-p | --pedantic` -> Generate alarms for offline scanners
+`-P | --pedantic` -> Generate alarms for offline scanners
 
-`-w | --warn` -> Generate a warning instead of a criticial alarm (default)
+`-W | --warn` -> Generate a warning instead of a criticial alarm (default)
 
 
 
